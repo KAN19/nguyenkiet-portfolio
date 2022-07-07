@@ -22,26 +22,28 @@ function About() {
 						<article className="about__card">
 							<FaAward className="about__icon" />
 							<h5>Experience</h5>
-							<small>3+ Years Working</small>
+							<small>6 &lt; Months Working</small>
 						</article>
 						<article className="about__card">
 							<FiUsers className="about__icon" />
 							<h5>Clients</h5>
-							<small>200+ Worldwide</small>
+							<small>2 Clients</small>
 						</article>
 						<article className="about__card">
 							<VscFolder className="about__icon" />
-							<h5>Experience</h5>
-							<small>3+ Years Working</small>
+							<h5>Projects</h5>
+							<small>4+ Projects Done</small>
 						</article>
 					</div>
 
 					<p>
-						Lorem ipsum dolor, sit amet consectetur adipisicing
-						elit. Praesentium architecto expedita, ut, laboriosam
-						sunt ducimus soluta dicta ex nobis voluptatibus hic quam
-						animi aspernatur accusantium tempora quae iure officiis?
-						Soluta.
+						My name is Nguyen Anh Kiet, and I am a software engineer
+						specialising in front-end development. I enjoy creating
+						precise and beautiful things as well as studying new
+						technologies.
+						<div>
+							I'm currently learning Java and Spring Framework 🍃
+						</div>
 					</p>
 
 					<a href="#contact" className="btn btn-primary">

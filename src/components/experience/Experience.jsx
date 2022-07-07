@@ -15,7 +15,7 @@ function Experience() {
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>HTML</h4>
+								<h4>HTML/CSS</h4>
 								<small className="text-light">
 									Experienced
 								</small>
@@ -24,37 +24,42 @@ function Experience() {
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>HTML</h4>
+								<h4>TailwindCss</h4>
 								<small className="text-light">
-									Experienced
+									Intermediate
 								</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>HTML</h4>
+								<h4>Javascript</h4>
 								<small className="text-light">
-									Experienced
+									Intermediate
 								</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>HTML</h4>
+								<h4>ReactJs</h4>
 								<small className="text-light">
-									Experienced
+									Intermediate
 								</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>HTML</h4>
-								<small className="text-light">
-									Experienced
-								</small>
+								<h4>React Native</h4>
+								<small className="text-light">Basic</small>
+							</div>
+						</article>
+						<article className="experience__details">
+							<BsPatchCheckFill className="experience__details-icon" />
+							<div>
+								<h4>NextJs</h4>
+								<small className="text-light">Basic</small>
 							</div>
 						</article>
 					</div>
@@ -65,55 +70,30 @@ function Experience() {
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
+								<h4>Spring</h4>
+								<small className="text-light">Basic</small>
+							</div>
+						</article>
+
+						<article className="experience__details">
+							<BsPatchCheckFill className="experience__details-icon" />
+							<div>
+								<h4>Laravel</h4>
+								<small className="text-light">Basic</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
+								<h4>MySQL/Postgres</h4>
+								<small className="text-light">Basic</small>
 							</div>
 						</article>
 						<article className="experience__details">
 							<BsPatchCheckFill className="experience__details-icon" />
 							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
-							</div>
-						</article>
-						<article className="experience__details">
-							<BsPatchCheckFill className="experience__details-icon" />
-							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
-							</div>
-						</article>
-						<article className="experience__details">
-							<BsPatchCheckFill className="experience__details-icon" />
-							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
-							</div>
-						</article>
-						<article className="experience__details">
-							<BsPatchCheckFill className="experience__details-icon" />
-							<div>
-								<h4>NodeJS</h4>
-								<small className="text-light">
-									Experienced
-								</small>
+								<h4>Docker</h4>
+								<small className="text-light">Basic</small>
 							</div>
 						</article>
 					</div>
