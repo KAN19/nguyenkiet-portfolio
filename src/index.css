@@ -11,12 +11,19 @@
 }
 
 :root {
-	--color-bg: #1f1f38;
+	/* --color-bg: #1f1f38;
 	--color-bg-variant: #2c2c63;
 	--color-primary: #4db5ff;
 	--color-primary-variant: rgba(77, 181, 255, 0.4);
 	--color-white: #fff;
-	--color-light: rgba(255, 255, 255, 0.6);
+	--color-light: rgba(255, 255, 255, 0.6); */
+
+	--color-bg: #1c3659;
+	--color-bg-variant: #3365a6;
+	--color-primary: #f2c299;
+	--color-primary-variant: #bf988a;
+	--color-white: #fff;
+	--color-light: #cccfd9;
 
 	--transition: all 400ms ease;
 
