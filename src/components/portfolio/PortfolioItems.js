@@ -37,7 +37,7 @@ export const portfolioItems = [
 		image: IMG6,
 		title: "Pets food online shop",
 		team_size: "3",
-		tech_stack: "HTMl/CSS, Jquery, Laravel",
+		tech_stack: "HTML/CSS, Jquery, Laravel",
 		github: "https://github.com/KAN19/Meow-Shop",
 		live_demo: "",
 	},

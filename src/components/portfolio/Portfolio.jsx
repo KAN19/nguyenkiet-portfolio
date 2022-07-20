@@ -48,7 +48,7 @@ function Portfolio() {
 							>
 								Github
 							</a>
-							{!item?.live_demo && (
+							{/* {!item?.live_demo && (
 								<a
 									href={ref}
 									className="btn btn-primary"
@@ -56,11 +56,11 @@ function Portfolio() {
 								>
 									Live Demo
 								</a>
-							)}
+							)} */}
 
 							{item?.live_demo && (
 								<a
-									ref={item?.github}
+									ref={item?.live_demo}
 									target="_blank"
 									className="btn btn-primary"
 									rel="noreferrer"
