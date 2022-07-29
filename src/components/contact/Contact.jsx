@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { RiMessengerLine } from "react-icons/ri";
+import { BsLinkedin } from "react-icons/bs";
 
 function Contact() {
 	const [name, setName] = useState("");
@@ -15,7 +16,7 @@ function Contact() {
 			<div className="container contact__container">
 				<div className="contact__options">
 					<article className="contact__option">
-						<MdOutlineEmail className="contact__option-icon" />
+						<BsLinkedin className="contact__option-icon" />
 						<h4>Linkedin</h4>
 						<h5>Kiet Nguyen</h5>
 						<a
