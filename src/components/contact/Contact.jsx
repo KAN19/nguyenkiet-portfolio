@@ -16,10 +16,10 @@ function Contact() {
 				<div className="contact__options">
 					<article className="contact__option">
 						<MdOutlineEmail className="contact__option-icon" />
-						<h4>Email</h4>
-						<h5>nguyenkiet0807@gmail</h5>
+						<h4>Linkedin</h4>
+						<h5>Kiet Nguyen</h5>
 						<a
-							href="mailto:nguyenkiet0807@gmail.com"
+							href="https://www.linkedin.com/in/kiet-nguyen-943564201/"
 							target="_blank"
 						>
 							Send a message
