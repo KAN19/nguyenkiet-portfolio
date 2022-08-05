@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "assets/cv-nguyen-anh-kiet.pdf";
+import CV from "assets/NguyenAnhKiet_Resume.pdf";
 
 function CTA() {
 	return (
