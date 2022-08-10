@@ -15,7 +15,10 @@ function Experience() {
 					<div className="experience__content">
 						{frontendItems &&
 							frontendItems.map((item) => (
-								<article className="experience__details">
+								<article
+									className="experience__details"
+									key={item.id}
+								>
 									<BsPatchCheckFill className="experience__details-icon" />
 									<div>
 										<h4>{item?.title}</h4>
@@ -32,7 +35,10 @@ function Experience() {
 					<div className="experience__content">
 						{backendItems &&
 							backendItems.map((item) => (
-								<article className="experience__details">
+								<article
+									className="experience__details"
+									key={item.id}
+								>
 									<BsPatchCheckFill className="experience__details-icon" />
 									<div>
 										<h4>{item?.title}</h4>

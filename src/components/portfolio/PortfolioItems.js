@@ -21,7 +21,7 @@ export const portfolioItems = [
 		team_size: "3",
 		tech_stack: "ReactJs, TailwindCss, Redux, Ant Design",
 		github: "https://github.com/KAN19/website-giao-viec-quan-5",
-		live_demo: "",
+		live_demo: "https://demo-giao-viec-basic.vercel.app/",
 	},
 	{
 		id: 3,
@@ -30,7 +30,7 @@ export const portfolioItems = [
 		team_size: "3",
 		tech_stack: "ReactJs, TailwindCss, Redux, Ant Design, Typescript",
 		github: "https://github.com/phongvanngo/oo-movie",
-		live_demo: "",
+		live_demo: "https://oo-movie-kan19.vercel.app",
 	},
 	{
 		id: 4,
@@ -47,7 +47,7 @@ export const portfolioItems = [
 		title: "E-commerce and blog website",
 		team_size: "5",
 		tech_stack: "ReactJs, NextJs, TailwindCss, Redux, Ant Design",
-		github: "#",
+		github: "",
 		live_demo: "",
 	},
 ];

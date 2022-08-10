@@ -1,15 +1,10 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "assets/portfolio1.jpg";
-import IMG2 from "assets/portfolio2.jpg";
-import IMG3 from "assets/portfolio3.jpg";
-import IMG4 from "assets/portfolio4.jpg";
-import IMG5 from "assets/portfolio5.png";
-import IMG6 from "assets/portfolio6.jpg";
+
 import { portfolioItems } from "./PortfolioItems";
 
 function Portfolio() {
-	const ref = window.location.href;
+	// const ref = window.location.href;
 
 	return (
 		<section id="portfolio">
@@ -33,32 +28,26 @@ function Portfolio() {
 							</div>
 							<div>
 								<span className="description__title">
-									Tech stack:
+									Technologies:
 								</span>
 								<span> {item?.tech_stack}</span>
 							</div>
 						</div>
 
 						<div className="portfolio__item-cta">
-							<a
-								href={item?.github}
-								target="_blank"
-								className="btn"
-								rel="noreferrer"
-							>
-								Github
-							</a>
-							{/* {!item?.live_demo && (
+							{item?.github && (
 								<a
-									href={ref}
-									className="btn btn-primary"
+									href={item?.github}
+									target="_blank"
+									className="btn"
 									rel="noreferrer"
 								>
-									Live Demo
+									Github
 								</a>
-							)} */}
+							)}
 
-							{item?.live_demo && (
+							{/* {item?.live_demo && (
+								// eslint-disable-next-line jsx-a11y/anchor-is-valid
 								<a
 									ref={item?.live_demo}
 									target="_blank"
@@ -67,6 +56,21 @@ function Portfolio() {
 								>
 									Live Demo
 								</a>
+							)} */}
+
+							{item?.live_demo ? (
+								// eslint-disable-next-line jsx-a11y/anchor-is-valid
+
+								<a
+									href={item?.live_demo}
+									target="_blank"
+									className="btn btn-primary"
+									rel="noreferrer"
+								>
+									Live Demo
+								</a>
+							) : (
+								""
 							)}
 						</div>
 					</article>
